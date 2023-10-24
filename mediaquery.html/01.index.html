@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+        header{
+                background-color: #f2f2f2;
+                text-align: center;
+                padding: 20px;
+        }
+        footer{
+                text-align: center;
+                font-size: 25px;
+                background-color: bisque;
+        }
+        main{
+                font-size: 22px;   
+        }
+        @media screen and (max-width: 600px) {
+           header {
+                background-color: blue;
+           }     
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Responsive header</h1>
+    </header>
+    <main>
+      <p>
+        The CSS Media Query gives you a way to apply CSS only when the browser
+        and device environment matches a rule that you specify, for example
+        "viewport is wider than 480 pixels". Media queries are a key part of
+        responsive web design, as they allow you to create different layouts
+        depending on the size of the viewport, but they can also be used to
+        detect other things about the environment your site is running on, for
+        example whether the user is using a touchscreen rather than a mouse. In
+        this lesson you will first learn about the syntax used in media queries,
+        and then move on to use them in a working example showing how a simple
+        design might be made responsive.
+      </p>
+    </main>
+    <footer>
+        <p>Go to W3schools</p>
+        <a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_content">Visit W3schools</a>
+    </footer>
+  </body>
+</html>
